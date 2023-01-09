@@ -1,0 +1,171 @@
+/* You can not modify anything from the HTML file */
+.container {
+  background-color: #ffffff;
+  padding: 0%;
+  margin: 0%;
+  /* font-family: 'Orbitron';
+  font-family: 'Orbitron'; */
+}
+
+/* logoooooooooooooooo */
+.navbar-container {
+    font-family: 'Orbitron';
+  display: flex;
+}
+.navbar-container img {
+  margin-top: 50px;
+  margin-left: 90px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.list {
+    color: rgb(0, 0, 0);
+  display: flex;
+  position: absolute;
+  left: 700px;
+  top: 35px;
+  padding: 22px 40px;
+  /* margin-left: 400px; */
+  /* border: 1px solid red; */
+  gap: 60px;
+}
+.list .list-item {
+  color: rgba(22, 22, 22, 0.781);
+
+  list-style: none;
+}
+.list-item:hover {
+  color: rgb(19, 19, 19);
+  text-decoration: underline;
+}
+.list-item:nth-child(1){
+    color: black;
+    text-decoration: underline;
+}
+.button-group {
+  position: absolute;
+  top: 70px;
+  right: 80px;
+}
+.search-icon svg{
+    height: 27px;
+}
+.search-icon {
+  position: absolute;
+  
+  top: 5px;
+  right: 140px;
+}
+.button-group button {
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 5px 35px;
+}
+
+.square {
+  position: absolute;
+  top: 450px;
+  left: 245px;
+}
+.globe img{
+    height: 70px;
+}
+.globe {
+  position: absolute;
+  left: 1000px;
+}
+.star>img{
+    height: 50px;
+}
+.star:nth-child(odd) {
+  position: absolute;
+  top: 230px;
+  right: 220px;
+}
+.star:nth-child(even) {
+  position: absolute;
+  left: 780px;
+  bottom: 100px;
+}
+
+.hero-container > div > img {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  height: 600px;
+}
+.hero-container {
+  /* margin-left: 90px; */
+}
+.hero-container-right {
+  /* font-size: 30px; */
+  position: absolute;
+  top: 250px;
+  right: 70px;
+  text-align: center;
+  
+  /* border: 1px solid red; */
+  width: 1150px;
+  height: 650px;
+
+}
+h1.hero-heading{
+    font-family: 'Orbitron';
+    /* border: 1px solid red; */
+    font-size: 70px;
+    
+}
+p.hero-description{
+    color: #494949b4;
+    text-align: center;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    width: 590px;
+    margin: 1px auto;
+    padding: 5px;
+}
+.button-email,.button-join{
+    
+    position: relative;
+    margin: 5px;
+    top: 125px;
+    left: 50px;
+}
+button.button-email{
+    
+    font-family: 'Orbitron';
+
+    padding: 3px 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-size: 17px;
+}
+button.button-join{
+    font-family: 'Orbitron';
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 2px 7px;
+    font-size: 16px;
+    border-radius: 9px;
+}
+h4.contact-heading{
+    position: absolute;
+    color: rgba(0, 0, 0, 0.575);
+    left: 580px;
+    font-size: 20px;
+    bottom: 45px;
+}
+    
+div.icons{
+    position: absolute; 
+    
+    justify-content: flex-end;
+    bottom: 2px;
+     left: 500px;
+}
+.icons>span{
+    padding: 8px;
+}
+/* You can only modify the CSS file */

@@ -1,0 +1,113 @@
+/* You can not modify anything in the HTML */
+.container {
+  margin-top: 10px;
+  margin-left: 50px;
+  padding: 0px;
+  background-color: #ffffffc0;
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+
+/* navigation Bar */
+
+.navbar-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* navigation Bar:logo styling */
+
+/* left side */
+.navbar-container div img {
+  padding: 5px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+/* inbetween  */
+
+/* navigation Bar:list styling */
+
+.grow-list {
+  margin-left: 1px;
+}
+.list {
+  display: flex;
+  margin-top: 70px;
+  list-style: none;
+  gap: 40px;
+  text-decoration: none;
+  font-size: 15px;
+}
+.list-item {
+  color: #808080;
+}
+.list-item:hover {
+  color: #0e0a0a;
+}
+
+
+
+/* RIGHT SIDE*/
+
+/* navigation Bar:Button */
+
+div.button-group {
+  display: inline-block;
+  position: absolute;
+  top: 35px;
+  right: 175px;
+  /* border: 1px solid red; */
+  padding: 30px;
+}
+button.nav-button {
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  background-color: #7b56c4;
+  color: rgb(255, 255, 255);
+  padding: 20px 50px;
+  border: none;
+}
+
+
+/* banner */
+.banner-container {
+  display: flex;
+  margin-top: 1px;
+  justify-content: space-around;
+}
+
+/* /* content */
+.heading-text {
+  width: 580px;
+  height: 300px;
+  font-size: 70px;
+  color: #1f0950ee;
+}
+
+span {
+  color: #8c65e6;
+}
+
+div > p.description{
+  margin-top: -30px;
+  margin-left: 5px;
+  /* border: 1px solid red; */
+
+  width: 420px;
+  font-size: 17px;
+  color: #44424296;
+}
+.banner-container > div > button {
+  background-color: #784ecc;
+  color: rgb(255, 255, 255);
+  margin-left: 30px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 45px;
+  padding: 25px 55px;
+}
+
+/* You can only modify the CSS file*/
