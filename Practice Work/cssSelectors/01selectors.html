@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>selectors</title>
+    
+    <style>
+        /* universal selector */
+        *{
+            background-color: #7c7c73;
+        }
+        
+        /* individual selector */
+        
+        p{
+            /* background-color:  #5dcf11; */
+        }
+        
+        /* class and id selector */
+        .warning{
+            background-color: #cccf11;
+        }
+        #danger{
+            background-color: #e78d17;
+            
+        }
+        
+        .bg-black{
+            background-color: #e6046d;
+        }
+         
+      /* and selector (chained) */
+      li.bg-black.text-white{
+        background-color: #FF6263;
+        color: #ffffff;
+      }
+      
+      /* combined selector */
+
+      p,span{
+        background-color: #08c7d4;
+      }
+      
+
+      /* inside an element */
+
+      div ul li{
+        background-color: #38CC77;
+      }
+      
+      /* direct child */
+      div li{
+        background-color: #F7CD2E;
+      }
+     
+
+      /* sibling  ~ or + */
+
+      .sibling +P{
+        background-color:#8D3DAF ;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div>Welcome to live class</div>
+    <span>Span is just a span, nothing more</span>
+    <p>We all know paragraph</p>
+    <ul>
+      <li class="bg-black text-white">item1</li>
+      <li class="bg-black">item2</li>
+      <li class="bg-black text-white">item3</li>
+      <li class="warning">item4</li>
+      <li>item5</li>
+    </ul>
+
+    <div>
+      <p>lorem</p>
+      <li>awesome</li>
+      <ul>
+        <li>highlight me <a href="#">test</a></li>
+        <li>highlight me</li>
+      </ul>
+    </div>
+
+    <section>
+      <p class="sibling">Test 1</p>
+      <p class="sibling">Test 2</p>
+      <p>Test 3</p>
+      <p class="sibling" >Test 4</p>
+      <p >Test 5</p>
+    </section>
+  </body>
+</html>

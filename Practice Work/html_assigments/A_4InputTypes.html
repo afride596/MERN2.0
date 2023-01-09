@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>form</title>
+    </head>
+
+    <body>
+        <h1>ADDMISSION FORM</h1>
+        <form action="backed.js">
+
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="Name" id="name" placeholder="name">
+            </div> <br>
+
+            <div>
+                Password:<input type="password" name="pass" value=""
+                    placeholder="set the password"><br><br>
+
+            </div>
+
+            <div>
+                Confrim Password: <input type="password" name="cp"
+                    placeholder="confrimPassword"><br><br>
+
+            </div>
+
+            <div>
+
+                DOB:<input type="date" name="date"><br><br>
+                Email id:<input type="email" name="Email" value=""
+                    placeholder="enter your email"><br><br>
+            </div>
+            <div>
+                gender:<input type="radio" name="gender">male <input
+                    type="radio" name="gender">female <input type="radio"
+                    name="gender">other <br>
+
+            </div>
+            <div>
+
+                hobbies:<input type="checkbox" name="ch1" value="cricket">cricket
+                <input type="checkbox" name="ch2 "
+                    value="dance">dance <input type="checkbox" name="ch3"
+                    value="sing">sing <input type="checkbox"
+                    name="ch4" value="read">read <br>
+            </div>
+
+            <div>
+
+                attach file here : <input type="file"><br><br>
+            </div>
+
+            <div>
+
+                Qualification <select name="qual" id="">
+                    <option value="1oth">10th</option>
+                    <option value="12th">12th</option>
+                    <option value="Graduate">Graduate</option>
+                    <option value="undergraduate">undergraduate</option>
+
+                </div>
+
+                <div>
+                </select><br><br>
+                Give a link of your project:<input type="url" placeholder="url"><br><br>
+            </div>
+
+            <div>
+                <label for="About">Write About ur self:</label><br>
+                <textarea name="about" id="About" cols="100" rows="5"></textarea>
+            </div>
+            <br>
+
+            <input type="submit" value="submit" name="submit">
+
+
+
+
+            <input type="reset" value="reset" name="reset">
+
+
+
+
+            <br> <br>
+
+
+        </form>
+
+    </body>
+
+</html>
