@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: aliceblue;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.hambarger{
+
+}
+header {
+  display: flex;
+  border: 1px solid red;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul{
+  border: 1px solid red;
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+}
+ul li {
+  display: flex;
+  /* justify-content: center; */
+  /* border: 1px solid red; */
+  /* margin-right: 20px; */
+  margin: auto 25px auto 25px;
+}
+.btn-primary{
+    padding: 1px 24px 8px 24px;
+  
+
+}
+
+************mediaQueries*******
+@media screen {
+    
+}
