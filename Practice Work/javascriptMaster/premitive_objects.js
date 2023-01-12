@@ -17,7 +17,6 @@ console.log(a,b,c,d,e,f,g)
 console.log(typeof d)
 
 
-// write a javascript program 
 
 
 
@@ -28,9 +27,26 @@ console.log(typeof d)
 // it is non premitive dataType 
 
 const item={
-    "afride":true,
+    afride:true,
     "ashwaq":false,
     "harish":56,
     "mahesh":undefined,
 }
 console.log(item["afride"]);
+
+//quiz question 
+// write a javascript program to store name ,phone number and marks of a student using object
+
+
+let student ={
+    "name" : "afride",
+    "phoneNumber":8989955855,
+    marks:{
+        math:80,
+        science:90,
+        physics:100
+    }
+}
+console.log(student.name)
+console.log(student.phoneNumber)
+console.log(student.marks.science)
