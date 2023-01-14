@@ -1,91 +1,109 @@
 /* You can not modify anything in the HTML */
-body {
-    font-family: 'Poppins';
-  background: url(./assets/bg.png);
-  background-color: rgba(15, 15, 15, 0.37);
-  padding: 0px;
-  margin: 0px;
-  /* height: 100vh;
-  width: 100vw; */
+/* You can only modify the CSS file */
 
-  background-repeat: no-repeat;
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #030000;
+  overflow: hidden;
+
+}
+.container{
+  background-image: url(./assets/bg.png);
+  height: 100vh;
+  width: 100vw;
   background-position: center center;
-  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  font-family: Poppins;
+  width: 1440px;
+  margin: auto;
   /* background-size: cover; */
 }
-.navbar {
+.navbar-container{
   display: flex;
+ 
 }
-.navbar img {
-  position: absolute;
-  top: 12px;
-  left: 60px;
-  height: 30px;
-  margin-top: 15px;
+.logo{
+  margin-left: 100px;
+  width: 100px;
 }
-.line {
-  position: absolute;
-  top: 20px;
-  left: 200px;
-  border-left: 1px solid white;
-  height: 45px;
-}
-.grow-list {
-  margin-top: 10;
-  margin-left: 190px;
-}
-.list {
-  /* border: 1px solid red; */
-  color: aliceblue;
-  gap: 10px;
-  list-style: none;
+nav{
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #030000;
+  height: 90px;
+  /* gap: 12em; */
 }
-li.list-item {
+.list{
+  display: flex;
+  color: white;
+  gap: 4em;
+  
+}
+.list-item{
+display: flex;
+
+
+}
+.line{
+  height: 50px;
+  width: 1px;
+  background-color: aliceblue;
+  margin-left: 30px;
+  
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.hero-heading{
   /* border: 1px solid red; */
-  padding: 15px 40px;
+  font-size: 80px;
+  width: 900px;
+  color: #e9e4e4;
+  text-align: center;
+  margin: 0;
 }
-.list-item:first-child::after {
-  content: "\02C5";
+.hero-description{
+  font-size: 30px;
+  color: #e9e4e4;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 5px;
+}
+.button-large{
+  font-size: 30px;
+  padding: 17px;
+  background-color: #c732ae;
+  border: none;
+  border-radius: 10px;
+  color: #e9e4e4;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.grow-list{
+  margin-left: 30px;
+}
+.button-small{
+  margin-left: 300px;
+  color: #e9e4e4;
+  font-size: 17px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #c732ae;
+}
+.grow-list .list :first-child::after{
+  content: "ˇ";
   position: relative;
-  color: rgb(255, 255, 255);
-  top: 2px;
-  left: 5px;
-  padding: 7px;
+  font-size: 25px;
+  left: 10px;
+  top: 3px;
 }
-nav > div button {
-  position: absolute;
-  right: 150px;
-  top: 25px;
-}
-.button-small {
-  padding: 8px 22px;
-  background-color: #af79e2;
-  color: aliceblue;
-  border-radius: 7px;
-}
-.navbar::before {
-  content: "";
-  background-color: black;
-  position: absolute;
-  height: 80px;
-  width: 1920px;
-  z-index: -1;
-  /* opacity: ; */
-}
-div.hero{
-    /* border: 1px solid red; */
-    height: 90vh;
-    width: 99vw;
-}
-h1.hero-heading{
-    /* border: 1px solid red; */
-    padding: 20px;
-    color: rgb(252, 252, 252);
-    height: 250px;
-    width: 800px;
-    margin: 150px 600px;
-    text-align: center;
-    font-size: 60px;
-}
-/* You can only modify the CSS file */
