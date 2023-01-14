@@ -1,11 +1,13 @@
 /* You can not modify anything in the HTML */
 .container {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   margin-left: 50px;
   padding: 0px;
   background-color: #ffffffc0;
   font-family: "Poppins";
   box-sizing: border-box;
+  width: 1440px;
+  margin: auto;
 }
 
 /* navigation Bar */
@@ -22,7 +24,7 @@
   padding: 5px;
   margin-top: 50px;
   margin-bottom: 25px;
-  margin-left: 100px;
+  margin-left: 1px;
   margin-right: 50px;
 }
 
@@ -44,10 +46,11 @@
 .list-item {
   color: #808080;
 }
-.list-item:hover {
+.list-item:hover{
   color: #0e0a0a;
+  /* text-decoration: ; */
+  font-weight: 500;
 }
-
 
 
 /* RIGHT SIDE*/
@@ -58,7 +61,7 @@ div.button-group {
   display: inline-block;
   position: absolute;
   top: 35px;
-  right: 175px;
+  right: 300px;
   /* border: 1px solid red; */
   padding: 30px;
 }
