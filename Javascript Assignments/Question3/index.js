@@ -1,0 +1,8 @@
+// Declare a varibale and assign string value to it and change all the string characters to capital letters using toUpperCase() method.
+// declared variable
+
+let name= "uppalapati prabhas raju"
+let NAME=name.toUpperCase()
+
+console.log(name);
+console.log(NAME);
