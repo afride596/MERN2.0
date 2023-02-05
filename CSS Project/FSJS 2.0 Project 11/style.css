@@ -6,6 +6,7 @@ body {
   background-color: #0a0a0a;
   color: aliceblue;
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
   
 }
 .container {
@@ -412,15 +413,110 @@ padding: 9px;
 .music_cards>.card5::before{
   background-image: url('./Photos/twilightGray.png');
 }
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10rem;
+  /* background-color: red; */
+  /* border: 1px solid rgb(34, 177, 94); */
+  padding: 4rem 2rem;
+}
+.product_Section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.support_section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
 
 
+.footerRightContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.footerRightContainer>form{
+  background-color:yellow;
+background-color: #181a1b;
+padding: 8px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+}
+.emailButton{
+  all: unset;
+  background-color: #181a1b;
+  border: none;
+  border-style: none;
+}
+.subcribe-btn{
+background-color: #020202;
+color: white;
+padding: 13px;
+display: flex;
+flex-direction: row;
+border-radius: 7px;
+gap: 10px;
+justify-content: center;
+align-items: center;
+}
+.socail-media-conatiner{
+  display: flex;
+  
+  gap: 1rem;
+}
+.list-item>a:hover{
+  /* padding: 5px; */
+  color: #505153;
+  /* text-decoration: underline; */
+  /* text-decoration: wavy; */
+  
+}
+.anchor{
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+.right-img>img:hover{
+  scale: 1.3;
+  transition:  all 350ms ease-in-out;
+}
+.left-caseImage>img:hover{
+  scale: 1.3;
+  transition:  all 350ms ease-in-out;
+}
 
+.card:hover{
+  scale: 1.2;
+  transition: all 350ms ease-in-out;;
+}
+.card1:hover{
+  background-color: #020202;
+}.card2:hover{
+  background-color: #c20202;
+}.card3:hover{
+  background-color: #a85c05;
+}.card4:hover{
+  background-color: #040b4e;
+}.card5:hover{
+  background-color: #e9c59c;
+}
+.list-item1{
+  padding: 5px;
 
-
-
-
-
-
+  /* color: #505153; */
+}
 
 
 
