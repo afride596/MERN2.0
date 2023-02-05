@@ -1,0 +1,118 @@
+/* ************************css reset ************************************ */
+* {
+  background-color: #000000;
+  color: white;
+  font-size: large;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  overflow: hidden;
+
+}
+
+/**************************************** css utility class *********************/
+
+a {
+  width: 45px;
+}
+
+.navbar {
+  display: flex;
+
+  justify-content: space-between;
+}
+ul li {
+  display: flex;
+}
+.navBarFeautures {
+  display: flex;
+  gap: 50px;
+}
+.rightSide {
+  display: flex;
+
+  gap: 50px;
+}
+
+.hero-container h1 {
+  font-weight: ;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 55px;
+}
+
+/* ***********************hero-section*************************** */
+
+.hero-section {
+  border: 1px solid red;
+  display: flex;
+  
+}
+
+/* *********hero-left section************** */
+
+.hero-left{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+ 
+}
+
+.get-started-btn{
+  display: flex;
+  position: relative;
+  border: 1px solid red;
+ }
+ .get-started-btn>span{
+  border: 1px solid red;
+  width: 120px;
+
+ }
+.get-started-btn>img{
+  border: 1px solid red;
+  width: 75px;
+  position: absolute;
+  left: 120px;
+  /* top:44px; */
+}
+.btn-pink-bg>img{
+  position: absolute;
+  top: 77px;
+  left: 55px;
+}
+
+/* *************hero-right section************** */
+
+
+
+
+
+
+/* .hero-right {
+  border: 1px solid red;
+  position: relative;
+}
+div.hero-right > img {
+  border: 1px solid red;
+  /* position: absolute; */
+
+.frontcard {
+  /* border: 1px solid red; */
+  /* position: relative; */
+  /* top: 50px; */
+  /* left: 10px; */
+  width: 75px;
+}
+.backcard {
+  width: 90px;
+  /* border: 1px solid red; */
+  /* position: absolute; */
+  /* top: 5px; */
+  /* left: 10px; */
+} */
