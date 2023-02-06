@@ -1,20 +1,19 @@
 /* ************************css reset ************************************ */
 * {
-  background-color: #000000;
   color: white;
   font-size: large;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
 }
 
-
 body {
-  max-width: 1440px;
   margin: 0 auto;
   /* border: 1px solid red; */
-  overflow: hidden;
-
+  /* overflow: hidden; */
+  max-width: 1440px;
+  background-color: #151515;
 }
 
 /**************************************** css utility class *********************/
@@ -25,11 +24,36 @@ a {
 
 .navbar {
   display: flex;
+  margin: 25px;
 
   justify-content: space-between;
+  align-items: center;
 }
 ul li {
   display: flex;
+}
+.rightSide > #eng::after {
+  content: "";
+  position: relative;
+  left: 10px;
+  top: 10px;
+  border-top: 4px solid white;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+}
+.rightSide > #contant::before {
+  content: "";
+  position: absolute;
+  /* left: 1px; */
+  height: 30px;
+  width: 350px;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-image: url("./Assets/Icons/btn-pink-bg.svg");
+  background-size: 100% 100%;
+  right: 165px;
+  background-position: center;
+  opacity: 0.7;
 }
 .navBarFeautures {
   display: flex;
@@ -42,7 +66,7 @@ ul li {
 }
 
 .hero-container h1 {
-  font-weight: ;
+  /* font-weight: ; */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 55px;
 }
@@ -50,69 +74,161 @@ ul li {
 /* ***********************hero-section*************************** */
 
 .hero-section {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
-  
 }
 
 /* *********hero-left section************** */
 
-.hero-left{
+.hero-left {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
- 
+  /* border: 1px solid red; */
 }
 
-.get-started-btn{
+.get-started-btn {
   display: flex;
   position: relative;
-  border: 1px solid red;
- }
- .get-started-btn>span{
-  border: 1px solid red;
-  width: 120px;
-
- }
-.get-started-btn>img{
-  border: 1px solid red;
-  width: 75px;
-  position: absolute;
-  left: 120px;
-  /* top:44px; */
+  gap: 0.5rem;
 }
-.btn-pink-bg>img{
-  position: absolute;
-  top: 77px;
-  left: 55px;
+.get-started-btn > span {
+  /* border: 1px solid red; */
+  width: 139px;
+  z-index: 1;
+  font-size: 1.2rem;
+  left: 1px;
+  font-weight: 600;
+}
+.rightArrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightArrow > img {
+  width: 70px;
 }
 
-/* *************hero-right section************** */
+.get-started-btn > span::before {
+  content: "";
+  position: absolute;
+  left: 1px;
+  height: 30px;
+  width: 350px;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-image: url("./Assets/Icons/btn-pink-bg.svg");
+  background-size: 100% 100%;
+  left: -147px;
+  background-position: center;
+  opacity: 0.7;
+}
 
+.hero {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  width: 100%;
+  overflow-x: hidden;
+  /* height: 100vh; */
+  /* border: 1px solid red; */
+}
 
+.hero-left {
+  width: 100%;
+  display: flex;
+  margin-top: 75px;
+  flex-direction: column;
+  gap: 3rem;
+}
+.hero-left > h1 {
+  font-size: 100px;
+  width: 81%;
+}
+.hero-left > h1 > span {
+  font-size: 111px;
+  color: rgb(226, 43, 211);
+  font-weight: 900;
+}
+.hero-left > p {
+  width: 55%;
+  font-size: 25px;
+  color: #d1cfcf;
+  line-height: 40px;
+}
+.fa-add:before,
+.fa-plus:before {
+  content: "\2b";
+}
+.infoContainer {
+  display: flex;
+  gap: 3rem;
+}
+.info-active {
+  display: flex;
+  gap: 1rem;
+}
+.info-active > h1 {
+  font-size: 40px;
+}
+.info-active > h2 {
+  font-size: 45px;
+  color: rgb(228, 28, 228);
+}
+.info-yearofexperience > h1 {
+  font-size: 40px;
+}
+.info-yearofexperience > h2 {
+  font-size: 45px;
+  color: rgb(228, 28, 228);
+}
 
+.info-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.info-yearofexperience {
+  display: flex;
+  gap: 1rem;
+}
 
-
-
-/* .hero-right {
-  border: 1px solid red;
+.hero-right {
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
   position: relative;
 }
-div.hero-right > img {
-  border: 1px solid red;
-  /* position: absolute; */
-
-.frontcard {
+.hero-right > img {
   /* border: 1px solid red; */
-  /* position: relative; */
-  /* top: 50px; */
-  /* left: 10px; */
-  width: 75px;
-}
-.backcard {
-  width: 90px;
-  /* border: 1px solid red; */
-  /* position: absolute; */
+  position: absolute;
   /* top: 5px; */
-  /* left: 10px; */
-} */
+  width: 850px;
+}
+.back-img {
+  right: -20px;
+  top: -px;
+  background: none;
+}
+.front-img {
+  right: -212px;
+  background: none;
+  top: 55px;
+}
+/* -------------------------------------- */
+
+.logoss{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 135px;
+
+  width: 100%;
+  height: 220px;
+  background-color: #292929;
+  /* border: 1px solid red; */
+}
+.logoss>img{
+  width: 150px;
+}
