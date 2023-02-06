@@ -218,6 +218,7 @@ ul li {
 /* -------------------------------------- */
 
 .logoss{
+  margin-top: 200px;
   display: flex;
   flex-direction: row;
   justify-content: center;
