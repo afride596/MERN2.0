@@ -233,3 +233,46 @@ ul li {
 .logoss>img{
   width: 150px;
 }
+.serviceinfo{
+  display:flex ;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  /* border: 1px solid red; */
+  margin-top: 5rem;
+}
+.serviceinfo>h1{
+  font-size: 70px;
+  width: 40rem;
+  padding-left: 50px;
+
+}
+.serviceinfo>h1>span{
+  font-size: 70px;
+  color: rgb(247, 11, 168);
+}
+.serviceinfo>p{
+  /* border: 1px solid red; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 367px;
+  color: rgb(146, 133, 133);
+}
+.servicefeatures{
+  display: flex;
+flex-direction: row;
+}
+.freetransaction{
+  /* border: 1px solid red; */
+  width: 300px;
+  height: 270px;
+  background-color: #292929;
+  position: relative;
+  border-top: 2px solid white;
+    border-left: 1px solid white;
+    border-width: 1px;
+
+}
