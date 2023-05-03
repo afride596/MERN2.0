@@ -1,8 +1,8 @@
 //for loop
-// let i;
-// for(i=0;i<50;i++){
-//     console.log("i",i+1)
-// }
+let i;
+for(i=0;i<50;i++){
+    console.log(i,i+1)
+}
 
 // for in loop 
 

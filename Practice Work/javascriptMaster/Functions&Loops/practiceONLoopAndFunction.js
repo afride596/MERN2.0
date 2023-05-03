@@ -16,22 +16,22 @@
 // ----------------------------------------------
 // example 2
 
-// let marks={
-//     rohan:90,
-//     mahesh:56,
-//     pradeep:45,
-//     yeshwanth:96
-// }
+let marks={
+    rohan:90,
+    mahesh:56,
+    pradeep:45,
+    yeshwanth:96
+}
 // for(let i=0;i<Object.keys(marks).length;i++){
 //     console.log("the marks of " +Object.keys(marks)[i]+" are "+marks[Object.keys(marks)[i]])
 // }
 // ------------------------------------------------------------------
 
 // 2.write the program in  1 using for in loop
-// for(let key in marks){
-//     // console.log(key);
-//     console.log("the marks of " + key + marks[key]);
-// }
+for(let key in marks){
+    console.log(key);
+    // console.log("the marks of " + key + marks[key]);
+}
 // ------------------------------------------------------------------
 
 // 3 .write a program to print try again until the user entered correrct number
