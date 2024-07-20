@@ -73,33 +73,22 @@ ul li {
 
 
 
-.main{
-  /* border: 1px solid red; */
-  /* width: 400px; */
-  position: relative;
-  height: 100vh;
-  position: absolute;
-  left: 500px;
-  top: -90px;
-}
-.main-img{
-  /* border: 1px solid red; */
-  width: 280px;
-  position: absolute;
-  
+
+
   
  
-}
-.hero{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  /* border: 1px solid red; */
-  align-items: flex-end;
-  /* align-self: flex-end; */
 
-  padding-right: 290px;
+.Home{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
+.img img{
+  position: relative;
+  top: -200px;
+  width: 300px;
+}
+
 .text-container{
   display: flex;
   flex-direction: column;
