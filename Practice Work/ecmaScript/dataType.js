@@ -12,17 +12,17 @@
 
 // object
 
-console.log(typeof "hitesh");
-console.log(typeof Symbol);
+// console.log(typeof "hitesh");
+// console.log(typeof Symbol);
 
 // datatype conversion:
 
 // 1. string to number
-let score="33abc"
-let value=Number(score)
+// let score="33abc"
+// let value=Number(score)
 // console.log(value);=>NaN 
 
-console.log( typeof Number(score)) ;
+// console.log( typeof Number(score)) ;
 // Boolean
 
 
@@ -37,11 +37,23 @@ console.log( typeof Number(score)) ;
 
 // Array,Objects,Function 
 
-const hero=["shaktiman","naagraj","doga"];
-let myObj={
-    name:"hitesh",
-    age:45
-}
-const Function= ()=>{
-    console.log("hello");
-}
+// const hero=["shaktiman","naagraj","doga"];
+// let myObj={
+//     name:"hitesh",
+//     age:45
+// }
+// const Function= ()=>{
+//     console.log("hello");
+// }
+let Name="hitesh"
+const anotherVariable=Name.slice(-6,2)
+// const anotherVariable=Name.length
+console.log(anotherVariable);
+
+// trim() => to remove the spaces
+length()
+trimstart()
+trimEnd()
+replace()
+include()
+indexof
