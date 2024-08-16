@@ -1,4 +1,4 @@
-const progress = document.getElementById("progress-bar-1");
+  const progress = document.getElementById("progress-bar-1");
 const circle = document.querySelectorAll(".circle");
 const Prev = document.getElementById("prev");
 const next = document.getElementById("next");
